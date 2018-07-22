@@ -40,8 +40,8 @@ var orm = {
       cb(result);
     });
   },
-  create: function(table, cols, vals, cb) {
-    var queryString = "INSERT INTO " + table;
+  create: function(tableInput, cols, vals, cb) {
+    var queryString = "INSERT INTO " + tableInput;
 
     queryString += " (";
     queryString += cols.toString();
@@ -61,8 +61,8 @@ var orm = {
     });
   },
   
-  update: function(table, objColVals, condition, cb) {
-    var queryString = "UPDATE " + table;
+  update: function(tableInput, objColVals, condition, cb) {
+    var queryString = "UPDATE " + tableInput;
 
     queryString += " SET ";
     queryString += objToSql(objColVals);
