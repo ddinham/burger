@@ -1,10 +1,11 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "",
+  "description": "Eat-da-burger is an application that uses Mysql and Node to display a list of burgers. It also allows you to add burgers and save them.  You can also keep track of burgers that have been devoured.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,6 @@
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
     "mysql": "^2.16.0"
-  }
+  },
+  "devDependencies": {}
 }

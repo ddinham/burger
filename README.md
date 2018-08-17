@@ -7,6 +7,8 @@ programs used:
 HTML
 CSS
 Javascript
+JQuery
+Bootstrap
 Node.js
 npm packages - express, express-handlebars, body-parser and mysql
 
